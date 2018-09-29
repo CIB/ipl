@@ -1,0 +1,19 @@
+{
+  "name": "cataclysm_cam",
+  "version": "0.0.1",
+  "description": "An interactive visualizer for Cataclysm: Dark Days Ahead",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cib",
+  "license": "WTFPL",
+  "devDependencies": {
+    "electron": "^2.0.9"
+  },
+  "dependencies": {
+    "stats-js": "^1.0.0-alpha1",
+    "three": "^0.96.0"
+  }
+}
