@@ -1,7 +1,7 @@
 {
-  "name": "cataclysm_cam",
+  "name": "ipl",
   "version": "0.0.1",
-  "description": "An interactive visualizer for Cataclysm: Dark Days Ahead",
+  "description": "The threat-evaluating chess engine.",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
@@ -13,6 +13,7 @@
     "electron": "^2.0.9"
   },
   "dependencies": {
+    "sharp": "^0.20.8",
     "stats-js": "^1.0.0-alpha1",
     "three": "^0.96.0"
   }
